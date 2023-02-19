@@ -5,12 +5,13 @@ html, body {
   height: 100%;
   margin: 0;
   background-color: pink;
-}.box {
+}
+.box {
     width: 80%;
-    position: absolute;
+    position: centre;
     margin: auto;
   overflow: auto;
-}
+  }
 #main {
  width: 100%;
  padding: 0;
@@ -26,11 +27,12 @@ html, body {
 }
 .margin-bot-10 {
  padding-bottom: 10px;
-}#landing h1 {
+}
+#landing h1 {
  font-family: 'Oswald', sans-serif;
  font-size: 24px;
  font-weight: 400;
- text-transform: uppercase;
+ text-transform: center;
  color: black;
  padding: 0;
  margin: 0;
@@ -54,15 +56,16 @@ html, body {
  line-height: 0;
  font-weight: 400;
  letter-spacing: 8px;
- text-transform: uppercase;
+ text-transform: center;
  color: black;
-  #landing p {
+}
+#landing p {
  font-family: 'Source Sans Pro', sans-serif;
  font-weight: 400;
  font-size: 14px;
  line-height: 24px;
 }
-}.first-character {
+.first-character {
  font-weight: 400;
  float: left;
  font-size: 84px;
@@ -82,7 +85,8 @@ html, body {
 #landing .title h1 {
  font-size: 35px;
  letter-spacing: 8px;
-}#landing .block {
+}
+#landing .block {
  background: white;
  padding: 6px;
  width: 820px;
@@ -100,7 +104,7 @@ html, body {
  left: 0;
  width: 100%;
  height: 100%;
- background-color: black;
+ background-color: white;
  opacity: 0.70;
 }
 #landing .parallax-one {
@@ -116,7 +120,13 @@ html, body {
  -webkit-background-size: cover;
  background-repeat: no-repeat;
  background-position: top center;
-}#landing .parallax-two {
+}
+#landing .line-break {
+ background: linear-gradient(60deg, #008000, #ffd700, #dc143c);
+ width: 100%;
+ margin: 0 auto;
+}
+#landing .parallax-two {
  padding-top: 200px;
  padding-bottom: 200px;
  overflow: hidden;
@@ -129,7 +139,13 @@ html, body {
  -webkit-background-size: cover;
  background-repeat: no-repeat;
  background-position: top center;
-}#landing .parallax-three {
+}
+#landing .line-break {
+ background: linear-gradient(60deg, #008000, #ffd700, #dc143c);
+ width: 100%;
+ margin: 0 auto;
+}
+#landing .parallax-three {
  padding-top: 200px;
  padding-bottom: 200px;
  overflow: hidden;
@@ -142,24 +158,13 @@ html, body {
  -webkit-background-size: cover;
  background-repeat: no-repeat;
  background-position: top center;
-}#landing .line-break {
+}
+#landing .line-break {
  background: linear-gradient(60deg, #008000, #ffd700, #dc143c);
  width: 100%;
  margin: 0 auto;
 }
-#landing .line-break one{
- background: linear-gradient(60deg, #008000, #ffd700, #dc143c);
- width: 100%;
- margin: 0 auto;
-}#landing .line-break two{
- background: linear-gradient(60deg, #008000, #ffd700, #dc143c);
- width: 100%;
- margin: 0 auto;
-  }#landing .line-break three{
- background: linear-gradient(60deg, #008000, #ffd700, #dc143c);
- width: 100%;
- margin: 0 auto;
-}@media screen and (max-width: 959px) and (min-width: 768px) {
+@media screen and (max-width: 959px) and (min-width: 768px) {
  #flat .block {
   padding: 40px;
   width: 620px;
@@ -187,5 +192,3 @@ html, body {
   width: 290px;
  }
 }
-
-
