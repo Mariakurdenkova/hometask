@@ -4,7 +4,7 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   height: 100%;
   margin: 0;
-  background-color: white;
+  background-color: pink;
 }
 .box {
     width: 80%;
@@ -87,7 +87,7 @@ html, body {
  letter-spacing: 8px;
 }
 #landing .block {
- background: white;
+ background: pink;
  padding: 6px;
  width: 820px;
  margin: 0 auto;
