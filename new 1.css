@@ -149,6 +149,10 @@ html, body {
  background: linear-gradient(60deg, #008000, #ffd700, #dc143c);
  width: 100%;
  margin: 0 auto;
+  }#landing .line-break three{
+ background: linear-gradient(60deg, #008000, #ffd700, #dc143c);
+ width: 100%;
+ margin: 0 auto;
 }@media screen and (max-width: 959px) and (min-width: 768px) {
  #flat .block {
   padding: 40px;
