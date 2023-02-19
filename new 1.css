@@ -56,6 +56,13 @@ html, body {
  letter-spacing: 8px;
  text-transform: uppercase;
  color: black;
+  #landing p {
+ font-family: 'Source Sans Pro', sans-serif;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 24px;
+ color: black;
+}
 }.first-character {
  font-weight: 400;
  float: left;
